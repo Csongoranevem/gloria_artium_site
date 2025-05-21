@@ -1,8 +1,14 @@
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Gloria Artium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<main>
-    <h1>Üdvözöllek a sablonban!</h1>
-    <p></p>
-</main>
+<?php include 'header.php'; ?>
 
-<?php get_footer(); ?>
+
+</body>
+</html>
