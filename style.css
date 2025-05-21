@@ -1,0 +1,89 @@
+/*
+Theme Name: Saját Sablon
+Theme URI: https://gloriaartium.com/
+Author: Csongoranevem
+Author URI: https://telex.hu
+Description: Egy egyszerű WordPress sablon.
+Version: 1.0
+*/
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #1a1a1a;
+    color: #f2b851;
+    font-family: 'Georgia', serif;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    border-bottom: 2px solid purple;
+    padding: 1rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #dcdcdc;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-links a.active {
+    border-bottom: 2px solid white;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    padding: 4rem 1rem;
+    color: #f2b851;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.category img {
+    width: 150px;
+    height: auto;
+    border: 3px solid #000;
+}
+
+.category p {
+    font-weight: bold;
+    color: #00c8ff;
+}
+
+.title h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.title .latin {
+    font-style: italic;
+    color: #aaa;
+}
+
+.footer {
+    background-color: #111;
+    padding: 2rem 0;
+    border-top: 5px solid #f2b851;
+}
+
+.footer h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
