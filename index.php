@@ -1,8 +1,12 @@
 <?php get_header(); ?>
 
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <main>
-    <h1>Üdvözöllek a sablonban!</h1>
-    <p></p>
+    <style>
+        <?php include 'style.css'; ?>
+    </style>
+    <h1>GLORIA ARTIUM</h1>
 </main>
-
 <?php get_footer(); ?>
