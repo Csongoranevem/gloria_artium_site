@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Gloria Artium</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
 <head>
     <link rel="stylesheet" href="style.css">
