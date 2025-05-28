@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<head>
-    <link rel="stylesheet" href="style.css">
-</head>
 <main>
+<?php get_header(); ?>
+
     <style>
         <?php include 'style.css'; ?>
     </style>

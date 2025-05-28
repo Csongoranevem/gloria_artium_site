@@ -19,16 +19,21 @@ body {
 }
 
 .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     background-color: #1a1a1a;
     border-bottom: 2px solid purple;
     padding: 1rem;
 }
 
 .nav-links {
+    width: max-content;
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 2rem;
+    margin-right: 5%;
 }
 
 .nav-links a {
