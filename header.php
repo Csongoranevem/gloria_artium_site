@@ -14,10 +14,10 @@
 <header>
     <nav class="navbar">
         <div class="nav-links">
-            <div class="active"><a href="">FőOLDAL</a></div>
+            <div class="active"><a href="http://localhost/wordpress/">FőOLDAL</a></div>
             <div class="inactive"><a href="">KAPCSOLAT</a></div>
             <div class="inactive"><a href="">GYIK</a></div>
-            <div class="inactive"><a href="">BLOG</a></div>
+            <div class="inactive"><a href="http://localhost/wordpress/index.php/2025/06/03/now-the-monkey-jumps-into-the-water/">BLOG</a></div>
         </div>
     </nav>
 </header>

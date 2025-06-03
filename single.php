@@ -75,7 +75,7 @@ get_header();
             <?php the_content(); ?>
         </div>
         <div class="book-image">
-        <img src='<?php echo get_template_directory_uri(); ?>/keepek/Google.png' alt="">
+        
         </div>
     </div>
 </div>
