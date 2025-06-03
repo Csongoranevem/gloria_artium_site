@@ -12,23 +12,33 @@ Version: 1.0
 body {
     margin: 0;
     padding: 0;
+    width: 100%;
     background: #1a1a1a;
     color: #f2b851;
     font-family: 'Georgia', serif;
     text-align: center;
+    background-image: url('<?php echo get_template_directory_uri(); ?> /Képek/HatterKep.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
+header{
+    height: 200%;
+}
 .navbar {
     background-color: #1a1a1a;
-    border-bottom: 2px solid purple;
     padding: 1rem;
+    justify-content: end;
+    align-items: end;
+    width: 100%;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 2rem;
+    margin-right: 5%;
 }
 
 .nav-links a {
@@ -38,7 +48,7 @@ body {
     border-bottom: 2px solid transparent;
 }
 
-.nav-links a.active {
+.nav-links div.active {
     border-bottom: 2px solid white;
 }
 
@@ -90,4 +100,67 @@ body {
 
 h1{
     color: #fcbc5c;
+}
+
+.container{
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.TransParent{
+    opacity: 0.6;
+    margin-top: -3.5vh;
+    font-size: 75%;
+}
+
+.KozepCim{
+    display: block;
+    position: fixed;
+    width: 100%;
+    margin-top: 5%;
+    font-size: 150%;
+    letter-spacing: 2px;
+    font-weight: bold;
+    z-index: 1000000000;
+}
+
+.Kartyak{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-items: center;
+    justify-content: center;
+
+}
+
+.Kartya{
+    width: 12%;
+    margin: 1%;
+    font-size: 80%;
+    text-align: center;
+}
+
+.KartyaIMG{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 1px;
+    transition: transform 0.3s ease;
+}
+.KartyaIMG:hover{
+    transform: scale(1.1);
+}
+
+.KartyaNAV{
+    color: white;
+    font-weight:bolder;   
+}
+
+.SzelsoKartya{
+    width: 11%;
+    margin-top: 3%;
+    margin-bottom: 0.1%;
+}
+
+#SzobraszID{
+    margin-right: 30%;
 }
