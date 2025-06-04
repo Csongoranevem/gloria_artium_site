@@ -141,7 +141,6 @@ main{
     padding-left: 8%;
     padding-right: 8%;
     overflow: hidden;
-    background-color: #1a1a1a;
     margin-bottom: 3vh;
 }
  
@@ -159,7 +158,7 @@ main{
 
 .KozepCim{
     display: block;
-    position: static;
+    position: absolute;
     width: 100%;
     margin-top: 5%;
     font-size: 150%;
@@ -367,4 +366,31 @@ main{
     box-shadow: 0 0 7px  #fad156;
 }
  
- 
+.rolunkHR{
+    color: #f2b851;
+    background-color: #f2b851;
+    font-weight: bolder;
+    width: 150px;
+    border: none;
+    height: 10px;
+}
+
+#RolunkH{
+    display: flex;
+    flex-direction: row;
+    font-weight: 200;
+    font-size: 50PX;
+    justify-content: space-around;
+}
+
+.mainDivs2{
+    background-color: #1a1a1a;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+
+.rolunkLeiras{
+    margin-bottom: 5vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+}

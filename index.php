@@ -38,6 +38,14 @@
             </div>
         </div>        
     </div>
+
+    <div class="mainDivs2">    
+        <h1 id="RolunkH"><hr class="rolunkHR">RÓLUNK<hr class="rolunkHR"></h1>
+        <p class="rolunkLeiras">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quod natus. Qui dolores modi dolorum officia quam, quos eos sunt voluptatibus cumque eveniet, ab tempora architecto. Voluptatem impedit autem in.
+        Fugiat ipsam adipisci voluptas modi consectetur eos consequuntur corporis. Quidem libero harum eos sed ullam repellat quibusdam veniam rem sit minus aut vel porro, odit quia error pariatur animi ea?</p>
+        <hr class="mainHR">
+    </div>
+ 
     <div class="mainDivs">
 <!--festmények slide-->
         <div class="slider-container">
@@ -48,9 +56,9 @@
             <div class="slider">
                
                 <div class="slide-images">
-                <img src="<?php echo get_template_directory_uri(); ?>/kepek/hatterMain.PNG" class="slide-img-small" alt="...">
-                <img src="<?php echo get_template_directory_uri(); ?>/kepek/koser.PNG" class="slide-img-main" alt="...">
-                <img src="<?php echo get_template_directory_uri(); ?>/kepek/hatterMain.PNG" class="slide-img-small" alt="...">
+                <img src="<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif" class="slide-img-small" alt="...">
+                <img src="<?php echo get_template_directory_uri(); ?>/Képek/Lapozos1.jfif" class="slide-img-main" alt="...">
+                <img src="<?php echo get_template_directory_uri(); ?>/Képek/Lapozos2.jfif" class="slide-img-small" alt="...">
                 </div>
                
         </div>
@@ -72,15 +80,15 @@ let currentIndex = 1;
 const images = [
     {
         name: "Memento Mori",
-        image: "<?php echo get_template_directory_uri(); ?>/kepek/hatterMain.PNG"
+        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif"
     },
     {
         name: "Memento Mora",
-        image: "<?php echo get_template_directory_uri(); ?>/kepek/koser.PNG"
+        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif"
     },
     {
         name: "Valami Más",
-        image: "<?php echo get_template_directory_uri(); ?>/kepek/hatterMain.PNG"
+        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif"
     }
 ];
  
