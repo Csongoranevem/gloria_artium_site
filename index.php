@@ -43,7 +43,31 @@
         <h1 id="RolunkH"><hr class="rolunkHR">RÓLUNK<hr class="rolunkHR"></h1>
         <p class="rolunkLeiras">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quod natus. Qui dolores modi dolorum officia quam, quos eos sunt voluptatibus cumque eveniet, ab tempora architecto. Voluptatem impedit autem in.
         Fugiat ipsam adipisci voluptas modi consectetur eos consequuntur corporis. Quidem libero harum eos sed ullam repellat quibusdam veniam rem sit minus aut vel porro, odit quia error pariatur animi ea?</p>
+        <section class="blog-widget">
+    <h2 id="LBh">Latest Blog Posts</h2>
+    <div class="blog-widget-items">
+        <?php
+            $recent_posts = new WP_Query([
+                'post_type' => 'post',
+                'posts_per_page' => 3
+                ]);
+ 
+        if ($recent_posts->have_posts()):
+            while ($recent_posts->have_posts()): $recent_posts->the_post(); ?>
+                <div class="blog-widget-item">
+                    <a href="<?php the_permalink(); ?>">
+                        <h3><?php the_title(); ?></h3>
+                        <p><?php echo wp_trim_words(get_the_excerpt(), 15); ?></p>
+                    </a>
+                </div>
+        <?php endwhile; wp_reset_postdata();
+        else: ?>
+                <p>No blog posts found.</p>
+        <?php endif; ?>
+    </div>
+            </section>  
         <hr class="mainHR">
+        
     </div>
  
     <div class="mainDivs">
@@ -84,11 +108,11 @@ const images = [
     },
     {
         name: "Memento Mora",
-        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif"
+        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos1.jfif"
     },
     {
         name: "Valami Más",
-        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos0.jfif"
+        image: "<?php echo get_template_directory_uri(); ?>/Képek/Lapozos2.jfif"
     }
 ];
  

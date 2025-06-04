@@ -18,8 +18,9 @@ body {
     font-family: 'Georgia', serif;
     text-align: center;
     background-image: url('<?php echo get_template_directory_uri(); ?> /Képek/HatterKep.png');
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 header{
@@ -141,7 +142,10 @@ main{
     padding-left: 8%;
     padding-right: 8%;
     overflow: hidden;
-    margin-bottom: 3vh;
+    background-image: url('<?php echo get_template_directory_uri(); ?> /Képek/HatterKep2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
  
 
@@ -404,4 +408,54 @@ main{
     margin-bottom: 5vh;
     padding-left: 20vw;
     padding-right: 20vw;
+}
+
+.blog-widget {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 900px;
+    border-radius: 10px;
+}
+ 
+.blog-widget h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #553200;
+    margin-bottom: 1rem;
+}
+ 
+.blog-widget-items {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.blog-widget-item {
+    flex: 1 1 250px;
+    background: #fff;
+    border: 1px solid #d1b57c;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+ 
+.blog-widget-item:hover {
+    transform: translateY(-3px);
+}
+ 
+.blog-widget-item a {
+    text-decoration: none;
+    color: #2e1d00;
+}
+ 
+.blog-widget-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #573704;
+}
+
+#LBh{
+    color: #f2b851;
 }
