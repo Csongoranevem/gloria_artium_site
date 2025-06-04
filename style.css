@@ -7,7 +7,9 @@ Description: Egy egyszerű WordPress sablon.
 Version: 1.0
 */
 
-
+html{
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -432,7 +434,9 @@ main{
  
 .blog-widget-item {
     flex: 1 1 250px;
-    background: #fff;
+    background: #f2b851;
+    color: white;
+    font-weight: bold;
     border: 1px solid #d1b57c;
     padding: 1rem;
     border-radius: 8px;
