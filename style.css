@@ -353,6 +353,16 @@ main{
 .nav-right{
     right: -25%;
 }
+
+.nav-left img, .nav-right img{
+    width: 60px;
+    height: 60px;
+    filter: invert();
+}
+
+.nav-left img{
+    transform: rotate(180deg);
+}
  
  
 .slide-img-small{
