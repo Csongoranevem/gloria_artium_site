@@ -63,8 +63,8 @@
                
         </div>
  
-        <button class="nav-left" onclick="moveSlide(-1)">&#9664;</button>
-        <button class="nav-right" onclick="moveSlide(1)">&#9654;</button>
+        <button class="nav-left" onclick="moveSlide(-1)"><img src="<?php echo get_template_directory_uri(); ?>/Képek/map-arrow-right-l463l42udx6p1h5wuh64s.webp" class="slide-img-small" alt="..."></button>
+        <button class="nav-right" onclick="moveSlide(1)"><img src="<?php echo get_template_directory_uri(); ?>/Képek/map-arrow-right-l463l42udx6p1h5wuh64s.webp" class="slide-img-small" alt="..."></button>
  
         <p id="caption">MEMENTO MORI</p>
     </div>
